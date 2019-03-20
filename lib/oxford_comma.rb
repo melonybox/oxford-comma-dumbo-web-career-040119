@@ -7,7 +7,10 @@ def oxford_comma(array)
     "#{array[0]}, #{array[1]}, and #{array[2]}"
   else
     newArray = []
-    array.each
+    i = 0
+    maxI = array.size - 1
+    until i == maxI
+      newArray.push()
   
   end
 end

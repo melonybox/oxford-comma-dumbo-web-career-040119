@@ -13,7 +13,7 @@ def oxford_comma(array)
       newArray.push(array[i])
       i += 1
     end
-    "#{newArray} + #{array[-1]}"
+    "#{newArray}and #{array[-1]}"
   
   end
 end

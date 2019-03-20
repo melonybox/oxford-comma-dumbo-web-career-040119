@@ -11,6 +11,7 @@ def oxford_comma(array)
     maxI = array.size - 1
     until i == maxI
       newArray.push(array[i])
+      i += 1
     end
     newArray + array[array.last]
   

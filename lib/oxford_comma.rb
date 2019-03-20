@@ -10,7 +10,9 @@ def oxford_comma(array)
     i = 0
     maxI = array.size - 1
     until i == maxI
-      newArray.push()
+      newArray.push(array[i])
+    end
+    newArray + array[array.last]
   
   end
 end
